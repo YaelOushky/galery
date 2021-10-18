@@ -19,7 +19,7 @@ function creatProjs() {
                Cells suspected of being mines can be marked with a flag using the
                 right mouse button.`,
             url: "https://yaeloushky.github.io/mineSweeper/",
-            publishedAt: 'JANUAR',
+            publishedAt:'  Mon Oct 12 2021',
             labels: ["Matrixes", "keyboard events"],
         },
         {
@@ -32,7 +32,7 @@ function creatProjs() {
              Touch all the numbers from the smallest to the biggest number.
             You have only one minute for the game`,
             url: " https://yaeloushky.github.io/touch-nums/",
-            publishedAt: 1448693940000,
+            publishedAt: '  Mon Oct 3 2021',
             labels: ["Matrixes", "keyboard events"],
         },
         {
@@ -45,7 +45,7 @@ function creatProjs() {
              and customize your new arcade cabinets and build the greatest 
              neighborhood arcade`,
             url: "https://yaeloushky.github.io/pacman-game/",
-            publishedAt: 1448693940000,
+            publishedAt: '  Mon Oct 5 2021',
             labels: ["Matrixes", "keyboard events"],
         },
         {
@@ -57,7 +57,7 @@ function creatProjs() {
             different multipliers that will increase your ball count. A little math and a steady
             hand will maximize your ball count and earn you three stars on each level!`,
             url: "https://yaeloushky.github.io/Collect-the-Balls/",
-            publishedAt: 1448693940000,
+            publishedAt: '  Mon Oct 8 2021',
             labels: ["Matrixes", "keyboard events"],
         },
         {
@@ -77,7 +77,7 @@ function creatProjs() {
             similar to reading a printed book, except that the book is read at a computer and is only accessible
             while the reader is online.`,
             url: "https://yaeloushky.github.io/Book-Shop/",
-            publishedAt: 1448693940000,
+            publishedAt: '  Mon Oct 17 2021',
             labels: ["Matrixes", "keyboard events"],
         },
         {
@@ -90,7 +90,7 @@ function creatProjs() {
              fast-paced, colorful, and challenging brain game ! Brain games are the brain food you've been
               craving but didn’t know! Challenge your self and play over 2500+ Levels.`,
             url: " https://yaeloushky.github.io/In-picture/",
-            publishedAt: 1448693940000,
+            publishedAt: '  Mon Oct 4 2021',
             labels: ["Matrixes", "keyboard events"],
         }
     ]

@@ -23,8 +23,8 @@ function renderModal(projId) {
                 <p>${proj.desc}!</p>
                 <ul class="list-inline">
                   <li>Date: ${proj.publishedAt}</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
+                  <li>Client: Everyone</li>
+                  <li>Category: Game</li>
                 </ul>
                 <button class="badge btn bg-dark"><a href="${proj.url}" class="badge btn bg-dark">Lets Play</a></button>
             </div>
@@ -54,7 +54,7 @@ function renderPhotos() {
           </a>
           <div class="portfolio-caption">
             <h4>${proj.name}</h4>
-            <p class="text-muted">Illustration</p>
+            <p class="text-muted">published At: ${proj.publishedAt}</p>
           </div>
           </div>
         `
