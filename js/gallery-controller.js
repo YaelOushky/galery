@@ -67,7 +67,7 @@ function renderContact() {
   var valSubject = document.querySelector('.subject').value
   var valBody = document.querySelector('.body').value
    var strHTML = `
-   <a href=
+   <a class=" btn-dark" href=
     "https://mail.google.com/mail/?view=cm&fs=1&to=yaeli7702@gmail.com&su=${valSubject}-${valEmail}&body=${valBody}" class="badge">Submit</a>
     `
     document.querySelector('.col-auto').innerHTML = strHTML
