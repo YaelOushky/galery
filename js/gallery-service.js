@@ -2,11 +2,10 @@
 
 var gProjs
 
-
 function creatProjs() {
     var projs = [
         {
-            id: makeId(), //wM5
+            id: makeId(),
             name: "Minesweeper",
             title: "Welcome to Minesweeper Online",
             desc: `Playing minesweeper is our passion. 
@@ -51,28 +50,46 @@ function creatProjs() {
         },
         {
             id: makeId(),
-            name: "Sokoban",
-            title: "Better push those boxes",
-            desc: "lorem ipsum lorem ipsum lorem ipsum",
-            url: "projs/sokoban",
+            name: "Collect the Balls",
+            title: "Welcome to Collect the Balls Online",
+            desc: `Multiply your balls as best you can in this awesome physics-based 
+            puzzle game! You begin each level with 3 balls. Move the cup and pay mind to the
+            different multipliers that will increase your ball count. A little math and a steady
+            hand will maximize your ball count and earn you three stars on each level!`,
+            url: "https://yaeloushky.github.io/Collect-the-Balls/",
             publishedAt: 1448693940000,
             labels: ["Matrixes", "keyboard events"],
         },
         {
             id: makeId(),
-            name: "Sokoban",
-            title: "Better push those boxes",
-            desc: "lorem ipsum lorem ipsum lorem ipsum",
-            url: "projs/sokoban",
+            name: "Book shop",
+            title: "Welcome to Book shop Online",
+            desc: `An online book is a resource in book-like form that is only
+            available to read on the Internet. It differs from the common idea of an
+            e-book, which is usually available for users to download and read locally on 
+            a computer, smartphone or on an e-reader. "Book-like" means: information is presented
+            in a page format; pages are normally available to read sequentially (though "flipping" to
+            another page is possible using a mouse, keyboard or other controllers); and pages are read
+            passively, with little or no interaction or multimedia. This contrasts with a text which a 
+            user is reading on an interactive Web 2.0 website, which usually enables the user to click on 
+            online links, look up words or keywords online, etc. "Online" means the content may only be read 
+            while the reader is connected to the Internet. Thus the reader's experience with an online book is
+            similar to reading a printed book, except that the book is read at a computer and is only accessible
+            while the reader is online.`,
+            url: "https://yaeloushky.github.io/Book-shop/",
             publishedAt: 1448693940000,
             labels: ["Matrixes", "keyboard events"],
         },
         {
             id: makeId(),
-            name: "Sokoban",
-            title: "Better push those boxes",
-            desc: "lorem ipsum lorem ipsum lorem ipsum",
-            url: "projs/sokoban",
+            name: "In picture",
+            title: "Welcome to In picture Online",
+            desc: `Get ready to play a fun collection of word games to challenge your brain, improve your 
+            spelling, and learn new words!  Your task is to guess the words from the 4 pics! 
+             There are 4 pictures and all you have to do is guess that 1 word, sounds easy? Enjoy a fun, 
+             fast-paced, colorful, and challenging brain game ! Brain games are the brain food you've been
+              craving but didn’t know! Challenge your self and play over 2500+ Levels.`,
+            url: " https://yaeloushky.github.io/In-picture/",
             publishedAt: 1448693940000,
             labels: ["Matrixes", "keyboard events"],
         }

@@ -3,8 +3,6 @@ var gPortfolioModal = 1
 
 function renderModal(projId) {
     var proj = getProjById(projId)
-    // console.log('proj', proj)
-    // var projs = gProjs
     var strHTML = `
         <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
