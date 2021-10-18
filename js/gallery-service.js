@@ -76,7 +76,7 @@ function creatProjs() {
             while the reader is connected to the Internet. Thus the reader's experience with an online book is
             similar to reading a printed book, except that the book is read at a computer and is only accessible
             while the reader is online.`,
-            url: "https://yaeloushky.github.io/Book-shop/",
+            url: "https://yaeloushky.github.io/Book-Shop/",
             publishedAt: 1448693940000,
             labels: ["Matrixes", "keyboard events"],
         },

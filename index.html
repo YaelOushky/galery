@@ -32,17 +32,33 @@
   </div>
   <aside class="offcanvas-aside">
     <a href="./projects/touchTheNums/index.html"></a>
+
     <!-- Contact -->
     <section>
       <h4>Contact Me</h4>
+      <form>
+        <div class="form-group ">
+          <label for="formGroupExampleInput1">Your E-mail</label>
+          <input type="text" class="form-control email" id="formGroupExampleInput" placeholder="name@example.com">
+        </div>
+        <div class="form-group ">
+          <label for="formGroupExampleInput2">Subject</label>
+          <input type="text" class="form-control subject" id="formGroupExampleInput2" placeholder="Type Subject here">
+        </div>
+        <div class="form-group ">
+          <label for="formGroupExampleInput3">Message Body</label>
+          <textarea type="text" class="form-control body"  rows="5" cols="33" id="formGroupExampleInput2" placeholder="Type message text here"></textarea>
+        </div>
+        <div class="col-auto  " onclick="renderContact()"> submit</div>
+      </form>
     </section>
 
   </aside>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Meet Me</a>
+      <a class=" navbar-brand js-scroll-trigger " href="#page-top">Meet Me</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">

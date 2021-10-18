@@ -26,13 +26,7 @@ function renderModal(projId) {
                   <li>Client: Threads</li>
                   <li>Category: Illustration</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fa fa-times"></i>
-                  Close Project</button>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fa fa-times"></i>
-                  Close Project</button>
-              </div>
+                <button class="badge btn bg-dark"><a href="${proj.url}" class="badge btn bg-dark">Lets Play</a></button>
             </div>
           </div>
         </div>
@@ -66,4 +60,15 @@ function renderPhotos() {
         `
     })
     document.querySelector('.photos-container').innerHTML = strHTML.join('')
+}
+
+function renderContact() {
+  var valEmail = document.querySelector('.email').value
+  var valSubject = document.querySelector('.subject').value
+  var valBody = document.querySelector('.body').value
+   var strHTML = `
+   <a href=
+    "https://mail.google.com/mail/?view=cm&fs=1&to=yaeli7702@gmail.com&su=${valSubject}-${valEmail}&body=${valBody}" class="badge">Submit</a>
+    `
+    document.querySelector('.col-auto').innerHTML = strHTML
 }
